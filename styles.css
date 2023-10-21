@@ -1,0 +1,38 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fffaec;
+    background:linear-gradient(#ffe5a6,#a1490b);
+}
+main{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 55px;
+}
+.card{
+    width: 300px;
+    height: 580px;
+    background:linear-gradient(#ff7800, #a1450b);
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+}
+.title{
+    font-size: large;
+    
+}
+.vote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: orange;
+
+    height: 40px;
+    
+}
